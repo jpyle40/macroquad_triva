@@ -1,0 +1,12 @@
+[package]
+name = "quest-lab"
+version = "0.1.0"
+edition = "2021"
+description = "A colorful trivia adventure for curious young explorers"
+
+[dependencies]
+macroquad = "0.4.16"
+
+[profile.release]
+lto = true
+codegen-units = 1
